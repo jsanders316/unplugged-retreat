@@ -128,6 +128,14 @@ Author's custom styles
     font-size: .875em;
     line-height: 1.285em;
   }
+
+  img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
    
   address {
     font-style: normal;
@@ -162,11 +170,18 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   background: #3a3a3a;
   height: 1px;
   width: 100%;
-  height: 1px;
   margin: 10px 0 20px 0;
 }
 
@@ -231,6 +246,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url('../img/unplugged-retreat.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -283,6 +302,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
